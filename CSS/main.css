@@ -1,0 +1,60 @@
+.row .inner {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.image-text {
+  background-color: antiquewhite;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.modalBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalBox .layer {
+  width: 75%;
+  position: relative;
+}
+.modalBox .layer img {
+  height: 650px;
+  border-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modalBox .layer span {
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.modalBox .layer span.fa-circle-arrow-left {
+  left: 15px;
+  font-size: 30px;
+}
+.modalBox .layer span.fa-circle-arrow-right {
+  right: 15px;
+  font-size: 30px;
+}
+
+.modalBox .layer span.fa-xmark {
+  right: 15px;
+  top: 20px;
+}
