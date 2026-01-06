@@ -36,7 +36,7 @@ arrowLeftIcon.addEventListener("click", function () {
 });
 
 mainModalBox.addEventListener("click", function (e) {
-  if (e.target != modalImage) {
+  if (e.target == mainModalBox) {
     closeMOdal();
   }
 });

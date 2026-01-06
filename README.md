@@ -9,7 +9,7 @@ You can view the project online here:
 
 - **GitHub Pages**: [https://mohammeddev1.github.io/basic-slider-js/](https://mohammeddev1.github.io/basic-slider-js/)
 
- 
+
 ### Features
 
 - **Responsive image grid** using Bootstrap columns.
